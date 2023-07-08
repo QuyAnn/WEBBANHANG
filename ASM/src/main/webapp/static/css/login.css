@@ -1,0 +1,74 @@
+.container {
+    margin-top: 150px;
+    
+  }
+  
+  #loginForm {
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  #signupForm{
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+  @keyframes changeColor {
+    0% {
+      color: rgb(201, 29, 29);
+    }
+    33% {
+      color: rgb(44, 222, 44);
+    }
+    67% {
+      color: rgb(91, 91, 223);
+    }
+    100% {
+      color: rgb(219, 2, 215);
+    }
+  }
+  #loginForm h2 {
+    font-size: 36px;
+  animation: changeColor 3s infinite;
+    font-style: italic;
+    
+  }
+  
+  #rememberMe{
+    margin-top: 6px;
+  }
+  
+  #loginForm .form-group label {
+    font-weight: normal;
+  }
+  #loginForm .btn-primary{
+    width: 70%;
+    font-size: 22px;
+  }
+  #loginForm .btn-success{
+    width: 35%;
+    font-size: 22px;
+  }
+  
+  #loginForm .btn-primary:hover {
+    background-color: #1a53cd;
+    border-color: #1a53cd;
+  }
+  
+  #showPasswordToggle {
+    cursor: pointer;
+  }
+  
+  #showPasswordToggle:hover {
+    color: #007bff;
+  }
+  .err{
+   text-align: center;
+   color: red;
+   font-style: italic;
+  }
